@@ -1,0 +1,25 @@
+*  {
+    font-size: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #71948b;
+}
+button {
+    color: #ff7dc4;
+    background-color: blanchedalmond;
+}
+button:hover {
+    background-color: aquamarine;
+}
+@media screen and (max-width: 500px) {
+    * {
+        font-size: 30px;
+    }
+    body {
+        margin-top: 200px;
+    }
+}
